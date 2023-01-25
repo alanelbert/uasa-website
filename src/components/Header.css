@@ -1,0 +1,94 @@
+.uasa-header {
+ 
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+
+  padding: 2vh
+
+    
+    
+}
+
+.uasa-links {
+    display: flex;
+    justify-self: center;
+    
+    
+
+  
+}
+
+.uasa-link {
+    text-decoration: none;
+    align-self: center;
+    margin-right: 1vw;
+    padding: 0.3rem;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.uasa-link:hover {
+    color: aqua;
+}
+
+.uasa-home {
+    
+    color: rgb(251, 255, 0);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin-right: 3vw;
+    border: 0.15rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: rgb(47, 130, 255);
+}
+
+
+.uasa-home:hover {
+    color: rgb(251, 255, 0);
+    background: rgb(47,130,255);
+    background: radial-gradient(circle, rgba(47,130,255,0.5) 0%, rgba(0,73,77,0) 100%);
+}
+
+
+.uasa-logo {
+    height: 7rem;
+    
+    transition: color .9s, opacity .9s, margin-left .5s, margin-right .5s;
+    
+    
+}
+.uasa-logo:hover {
+   
+    animation: uasa-logo infinite 5s;
+    animation-timing-function: ease;
+}
+
+
+@keyframes uasa-logo {
+    0% {
+      transform: rotate(0deg);
+      animation-timing-function: ease-out;
+    }
+    25% {
+      transform: rotate(-45deg);
+      animation-timing-function: ease-in;
+    }
+    50% {
+        transform: rotate(0deg);
+        animation-timing-function: ease-out;
+      }
+    75% {
+      transform: rotate(45deg);
+      animation-timing-function: ease-in;
+      
+    }
+    100% {
+        transform: rotate(0deg);
+        animation-timing-function: ease-out;
+    }
+    
+    
+}
