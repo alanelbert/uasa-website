@@ -55,11 +55,25 @@
 
 .uasa-logo {
     height: 7rem;
-    
+    margin-left: 1vw;
+    margin-top: 2vh;
     transition: color .9s, opacity .9s, margin-left .5s, margin-right .5s;
+
+    animation: 1s ease-out 0s 1 uasa-logo-load;
     
     
 }
+
+@keyframes uasa-logo-load {
+  0% {
+    
+  }
+  100% {
+    rotate: 0deg;
+  }
+  
+}
+
 .uasa-logo:hover {
    
     animation: uasa-logo infinite 5s;

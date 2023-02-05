@@ -11,7 +11,7 @@ const port = 9000;
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(express.json())
-
+app.use(cors())
 
 
 const connection = "mongodb://db:27017/uasa_content";
@@ -30,9 +30,15 @@ mongoose.connect(connection).then(() => {
 
 
 
+app.all('/', function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+    next();
+   });
+
 app.get('/v1/blogs', (req,res) => {
     console.log('connecting to route route "/blogs"')
-
+    console.log(req)
     blogModel.find((err, data) => {
         if (!err) {
             console.log(typeof(data))
@@ -51,10 +57,33 @@ app.get('/v1/blogs', (req,res) => {
     });
 })
 
+app.get('/v1/blogs/:id', (req,res) => {
+    console.log('connecting to route route "/blogs"')
+    console.log(req)
+    blogModel.findById(req.params.id, (err, data) => {
+        if (!err) {
+            console.log(typeof(data))
+            
+            console.log(data)    
+                            
+            // 201 -> created 
+            res.status(201).send(data)
+            
+
+        } else {
+            console.log(err)
+            res.status(500).send(err)
+        }
+
+    });
+})
+
+
 
 app.post('/v1/blogs', (req, res) => {
     
     console.log("Adding blog")
+    
 
     blogModel.create(req.body, (err, data) => {
         if (!err) {

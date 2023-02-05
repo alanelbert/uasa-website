@@ -13,6 +13,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import CreatePost from './pages/Edit';
+import ArticlePage from './pages/ArticlePage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact/>} />
+            <Route path="articles/:id" element={<ArticlePage />} />
             <Route path="topsecret" element={<CreatePost/>} />
             <Route path="*" element={<h1>Sorry, no page found!</h1>}/>
           </Route>

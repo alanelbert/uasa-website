@@ -16,6 +16,7 @@ function Header() {
                     
                     <Link to="/" className="uasa-home uasa-link"><b>Home</b></Link>
                     <Link to="/about" className="uasa-link"><b>About</b></Link>
+                    <Link to="/" className="uasa-link"><b>Donate</b></Link>
                     <Link to="/contact" className="uasa-link"><b>Contact Us</b></Link>
                     
                 </div>
