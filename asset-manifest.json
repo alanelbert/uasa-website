@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/uasa-website/static/css/main.2131da91.css",
-    "main.js": "/uasa-website/static/js/main.0d8cd1ea.js",
-    "static/js/787.576ed052.chunk.js": "/uasa-website/static/js/787.576ed052.chunk.js",
-    "index.html": "/uasa-website/index.html",
-    "main.2131da91.css.map": "/uasa-website/static/css/main.2131da91.css.map",
-    "main.0d8cd1ea.js.map": "/uasa-website/static/js/main.0d8cd1ea.js.map",
-    "787.576ed052.chunk.js.map": "/uasa-website/static/js/787.576ed052.chunk.js.map"
+    "main.css": "/static/css/main.2131da91.css",
+    "main.js": "/static/js/main.00280e33.js",
+    "static/js/787.576ed052.chunk.js": "/static/js/787.576ed052.chunk.js",
+    "index.html": "/index.html",
+    "main.2131da91.css.map": "/static/css/main.2131da91.css.map",
+    "main.00280e33.js.map": "/static/js/main.00280e33.js.map",
+    "787.576ed052.chunk.js.map": "/static/js/787.576ed052.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2131da91.css",
-    "static/js/main.0d8cd1ea.js"
+    "static/js/main.00280e33.js"
   ]
 }
