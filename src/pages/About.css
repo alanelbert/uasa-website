@@ -1,0 +1,16 @@
+.about-card {
+    width: 75vw;
+    order: 0.15rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: rgb(47, 130, 255);
+  
+    justify-self: center;
+    
+    margin-left: 12.5vw;
+
+    margin-top: 5vh;
+    text-decoration: none !important;
+    background: rgb(48, 48, 48);
+    
+}

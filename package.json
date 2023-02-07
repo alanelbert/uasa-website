@@ -36,7 +36,7 @@
   },
   "scripts": {
     "predeploy": "yarn install",
-    "deploy": "gh-pages -d build",
+    "deploy": "yarn build; cp build/index.html build/404.html; gh-pages -d build",
     "dev-start": "docker compose up -d --build",
     "dev-stop": "docker compose down -v",
     "dev-rebuild": "yarn run dev-stop && yarn run dev-start",
