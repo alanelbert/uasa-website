@@ -13,6 +13,19 @@ function Donate() {
                 <li>
                     <a href="https://supportukrainenow.org/ ">Support Ukraine Now</a>
                 </li>
+
+                <li>
+                    <a href="https://kharpp.com/how-to-donate/ ">KHARPP</a>
+                </li>
+
+                <li>
+                    <a href="https://helpingtoleave.org/en/territories-are-people">Helping to Leave</a>
+                </li>
+
+                <li>
+                    <a href="https://u24.gov.ua/">United 24</a>
+                </li>
+                
             </ul>
         
         </div>
