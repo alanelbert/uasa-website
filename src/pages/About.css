@@ -12,5 +12,19 @@
     margin-top: 2vh;
     text-decoration: none !important;
     background: rgb(48, 48, 48);
+    animation: 1s ease-out 0s 1 slideFadeIn;
     
+}
+
+
+@keyframes slideFadeIn {
+    0% {
+      transform: translateX(-3%);
+      opacity: 0%;
+    }
+    
+     100% {
+      transform: translateX(0);
+      opacity: 100%;
+    }
 }

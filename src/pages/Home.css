@@ -7,7 +7,10 @@
 
     animation: 1s ease-out 0s 1 slideInLeft;
 }
-
+.-webkit-scrollbar {
+    width: 200px;
+}
+  
 
 
 
@@ -58,6 +61,13 @@
     animation: 1s ease-out 0s 1 slideFadeIn;
     animation-fill-mode: forwards;
     
+
+}
+
+.article-image {
+
+    width: 24vw;
+    margin-left: 0.5vw;
 
 }
 

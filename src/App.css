@@ -9,9 +9,15 @@
   width: 100vw;
   float: top;
   overflow-x: hidden;
+  scrollbar-width: auto;
+  scrollbar-color:  rgb(14, 0, 68) rgb(2, 0, 35);
+
   
+ 
   
 }
+
+
 
 .App-logo {
   height: 40vmin;
