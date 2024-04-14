@@ -7,7 +7,13 @@ import './Donate.css'
 function Donate() {
     return (
         <div className="donate-card">
-            <p>yes</p>
+            <h1>Donate to Ukraine here:</h1>
+
+            <ul>
+                <li>
+                    a
+                </li>
+            </ul>
         
         </div>
     );
