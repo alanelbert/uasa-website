@@ -71,9 +71,9 @@ function Home() {
 
             <BlogPost author={""}
                                 message = {'Join us for our UASA Concert!'}
-                                img = '/concert.jpeg'
+                                img = '/concert.jpg'
                                 timeStamp="1713112713000"
-                                id = {"vigil-article"}
+                                id = {"concert"}
                                 title={"UASA Concert"}
 
                             />

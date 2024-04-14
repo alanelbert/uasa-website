@@ -16,6 +16,22 @@
     
 }
 
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: aqua;
+}
+
+a:active {
+  color: aqua;
+}
+
 
 @keyframes slideFadeIn {
     0% {

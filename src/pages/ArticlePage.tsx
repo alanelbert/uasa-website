@@ -71,6 +71,17 @@ function ArticleContent() {
             </div>
         )
         
+    } else if (aId == "concert") {
+        return (
+            <div>
+            <ArtPost message={'Join us for the UASA concert!'} 
+                        author={""}
+                        timeStamp={"1713112713000"}
+                        title={"UASA Concert"}
+                        image={"/concert.jpg"}
+                         /> 
+            </div>
+        )
     }
 
     return (
